@@ -23,6 +23,14 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("com.google.api-client:google-api-client:1.23.0")
+    implementation("com.google.oauth-client:google-oauth-client-jetty:1.23.0")
+    implementation("com.google.apis:google-api-services-youtube:v3-rev222-1.25.0")
+    // https://mvnrepository.com/artifact/com.restfb/restfb
+    implementation("com.restfb:restfb:2024.12.0")
+    //https://github.com/redouane59/twittered
+    implementation("io.github.redouane59.twitter:twittered:2.23")
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
